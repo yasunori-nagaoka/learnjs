@@ -25,6 +25,6 @@ describe('LearnJS', function(){
 	it('invokes the router when loaded', function(){
 		spyOn(learnjs, 'showView');
 		learnjs.appOnReady();
-		expect(learnjs.showView).toHaveBeenCalledWith(window.location.hash));
+		expect(learnjs.showView).toHaveBeenCalledWith(window.location.hash);
 	});
 });

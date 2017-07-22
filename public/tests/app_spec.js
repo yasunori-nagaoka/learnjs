@@ -16,7 +16,7 @@ describe('LearnJS', function(){
 	describe('LearnJS', function(){
 		it('has a title that includes the problem number', function(){
 			var view = learnjs.problemView('1');
-			expect(view.text()).toEqual('Problem #1 Coming Soon');
+			expect(view.text()).toEqual('Problem #1 Coming Soon!');
 		});
 	});
 
